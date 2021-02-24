@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+header {
+    width: 100%;
+    height: 1400px;
+    background-color: #e2e7ec;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.container {
+    width: 1124px;
+    height: 1100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 91px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+}
+
+
+.biggest__news {
+    width: 740px;
+    height: 540px;
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black)), url(/img/red__car.png);
+    background-image: -o-linear-gradient(transparent, black), url(/img/red__car.png);
+    background-image: linear-gradient(transparent, black), url(/img/red__car.png);
+}
+
+
+.car_date {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 46px;
+    opacity: 0.5;
+    color: #fff;
+    margin-bottom: 23px;
+    padding-top: 404px;
+    font-family: "Hans Kendrick";
+}
+
+
+.car_about {
+    width: 433px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 43px;
+    font-family: "Hans Kendrick - Heavy";
+}
+
+
+.new {
+    width: 360px;
+    height: 540px;
+    background-color: #fff;
+}
+
+
+.new:not(.two) {
+    margin-left: 20px;
+}
+
+
+.new:not(.one) {
+    margin-top: 20px;
+}
+
+
+.date {
+    margin: 28px 0 0 28px;
+    color: #818181;
+    font-family: "Hans Kendrick";
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.about {
+    color: #1d1d1d;
+    font-family: "Hans Kendrick - Heavy";
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    max-width: 300px;
+    max-height: 78px;
+    margin-left: 27px;
+    margin-top: 21px;
+    letter-spacing: 0.55px;
+
+}
+
+
+.new.three .about {
+    margin-top: 62px;
+}
+
+
+.author {
+    margin: 70px 0 0 28px;
+}
+
+
+.loading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 87px auto 0 auto;
+}
