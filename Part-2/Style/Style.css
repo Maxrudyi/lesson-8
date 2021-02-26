@@ -37,9 +37,9 @@ header {
     width: 740px;
     height: 540px;
     color: #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black)), url(/img/red__car.png);
-    background-image: -o-linear-gradient(transparent, black), url(/img/red__car.png);
-    background-image: linear-gradient(transparent, black), url(/img/red__car.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black)), url(../img/car.png);
+    background-image: -o-linear-gradient(transparent, black), url(../img/car.png);
+    background-image: linear-gradient(transparent, black), url(../img/car.png);
 }
 
 
